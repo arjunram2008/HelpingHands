@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent !important;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a,
+.navbar div {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.user-info {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
