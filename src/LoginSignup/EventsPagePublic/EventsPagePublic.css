@@ -1,0 +1,13 @@
+import React from "react";
+import ViewEvents from "./ViewEvents";  // Adjust the import path as necessary
+
+const MainPage = () => {
+  return (
+    <div>
+      <h1>Welcome to the MainPage</h1>
+      <ViewEvents />
+    </div>
+  );
+};
+
+export default MainPage;

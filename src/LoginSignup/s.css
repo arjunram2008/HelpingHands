@@ -1,0 +1,143 @@
+.container1 {
+  margin: 0;
+  padding: 30px;
+  background-image: url("https://images.unsplash.com/photo-1582578598774-a377d4b32223?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Adding the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #073b4c;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.user-button-container button {
+  background: #073b4c /* Made the button translucent */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #073b4c;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.forgot-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #073b4c;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: #073b4c;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center; /* Centered the buttons horizontally */
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #073b4c; 
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gray {
+  background: #073b4c; 
+  color: #808080;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .container1 {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .input input {
+    width: calc(100% - 60px);
+  }
+
+  .submit-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .submit {
+    width: 100%;
+  }
+  .user-button-container button {
+    background: rgba(76, 0, 180, 0.5); /* Made the button translucent */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

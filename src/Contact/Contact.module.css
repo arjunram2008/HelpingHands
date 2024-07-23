@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif; /* Using Lato for better readability */
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1582578598774-a377d4b32223?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Adding the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: auto; /* Ensure scrolling if content overflows */
+  color: #333;
+}
+
+.contact-body {
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 800px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Adding a semi-transparent background for readability */
+  text-align: center;
+  border-radius: 15px;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin: 20px 0 30px;
+  font-weight: 700; /* Make the heading bold */
+}
+
+/* Card Styles */
+.contact-card {
+  border-radius: 15px;
+  position: relative;
+  padding: 20px;
+  background-color: transparent;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Header Styles */
+.contact-card-top {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  background-color: #f4f4ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.contact-card-name {
+  font-size: 1.75em;
+  color: #565264;
+  margin: 0;
+}
+
+/* Image Styles */
+.contact-card img {
+  margin-right: 10px;
+}
+
+.contact-card-img {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  width: 100px;
+  height: 100px;
+}
+
+/* Card Content Styles */
+.contact-card-bottom-info,
+.contact-card-bottom {
+  margin-top: 15px;
+}
+
+.contact-card-info {
+  margin: 20px 0;
+  color: #16a085;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+  .contact-body {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .contact-card {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .contact-card-top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .contact-card-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .contact-card-img {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,59 @@
+/* AdminPage.module.css */
+.adminPage {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #6a8eae;
+}
+
+.adminPage h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6a8eae;
+}
+
+.adminPage input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.adminPage button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adminPage button:hover {
+  background-color: #0056b3;
+}
+
+.adminPage .error {
+  color: red;
+  margin-top: 5px;
+}
+
+.adminPage > div {
+  margin-top: 20px;
+}
+
+.adminPage > div a {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.adminPage > div a:hover {
+  background-color: #e9ecef;
+}
